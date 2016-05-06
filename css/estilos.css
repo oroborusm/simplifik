@@ -704,6 +704,8 @@ input, textarea{
 	.listaFooter li span,
 	.listaFooter li p{
 		color: white !important;
+		display: inline-block;
+		margin: 0;
 	}
 
 .mustraProceso{
