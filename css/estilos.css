@@ -81,7 +81,7 @@ a
 body
 {
 	/* background: #EEEEEE; */
-	font-family: "Open Sans";
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	-webkit-font-smoothing: antialiased;
 }
@@ -278,6 +278,7 @@ footer figure{
 	width: 90%;
 }
 .txtIntro p{
+	font-family: 'Open Sans', sans-serif;
 	margin:0 0 0 10%;
 	text-align: justify;
 	width: 90%;
@@ -452,6 +453,7 @@ input, textarea{
 .contacto .formulario input, .contacto .formulario textarea {
 	background: rgb(179, 200, 203);
 	border: 1px solid transparent;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	margin-bottom: .5em;
 	padding: 2px .5em;
@@ -698,6 +700,9 @@ input, textarea{
 		color: white;
 		list-style: none;
 		text-align: left;
+	}
+	.listaFooter li span{
+		color: white !important;
 	}
 
 .mustraProceso{
