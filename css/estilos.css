@@ -701,7 +701,8 @@ input, textarea{
 		list-style: none;
 		text-align: left;
 	}
-	.listaFooter li span{
+	.listaFooter li span,
+	.listaFooter li p{
 		color: white !important;
 	}
 
