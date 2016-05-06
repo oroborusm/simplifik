@@ -702,10 +702,21 @@ input, textarea{
 		text-align: left;
 	}
 	.listaFooter li span,
-	.listaFooter li p{
+	.listaFooter li foo{
 		color: white !important;
 		display: inline-block;
+		font-size: 16px;
 		margin: 0;
+	}
+	@media screen and (max-width:500px){
+		.listaFooter{
+			text-align: center;
+		}
+		.listaFooter li span,
+		.listaFooter li foo{
+			color: white;
+			font-size: 13px;
+		}
 	}
 
 .mustraProceso{
